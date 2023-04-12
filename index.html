@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<script src="./javascript/javascript.js" defer></script>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <article class="vector">
+    <h1>Segundo trabajo</h1>
+    <p id="parrafo"> Desarrollar un programa que permita almacenar las edades de un grupo de 10 personas en un vector de 
+      enteros y luego determine la cantidad de personas que son menores de edad, mayores de edad, cuántos 
+      adultos mayores, la edad más baja, la edad más alta y el promedio de edades ingresadas. Para el ejercicio 
+      anterior suponga que un adulto mayor debe tener una edad igual o superior a 60. Debe validar para cada 
+      ingreso que los valores estén en un rango entre 1 y 120 años. En caso de error deberá notificar y solicitar 
+      un nuevo valor. </p>
+    </article>
+    
+
+  <section class="age">
+  
+    <h1>Estadísticas de edades</h1>
+    <p>Ingrese las edades de 10 personas:</p>
+    <input type="number" id="edad">
+    <button onclick="agregarEdad()">Agregar</button>
+    <br><br>
+    <div id="resultados">
+      <p>Cantidad de personas menores de edad: <span id="menores"></span></p>
+      <p>Cantidad de personas mayores de edad: <span id="mayores"></span></p>
+      <p>Cantidad de adultos mayores: <span id="adultos"></span></p>
+      <p>Edad más baja: <span id="min"></span></p>
+      <p>Edad más alta: <span id="max"></span></p>
+      <p>Promedio de edades: <span id="promedio"></span></p>
+</div>
+  </section>
+</body>
+</html>
